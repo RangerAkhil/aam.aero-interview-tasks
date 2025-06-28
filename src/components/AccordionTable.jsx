@@ -1,6 +1,6 @@
 import Accordion from "@/components/Accordion";
 import EditableTable from "./EditableTable";
-import useEditableTable from "@/features/useEditableTable";
+import useEditableTable from "@/hooks/useEditableTable";
 
 export default function AccordionTable() {
     const state1 = useEditableTable();
